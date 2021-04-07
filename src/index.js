@@ -1,12 +1,13 @@
 const express = require('express');
-const bodyParser = require('body-parser')
+// const bodyParser = require('body-parser')
 const path = require('path');
 const Routes = require('./routes');
 
 const port = process.env.PORT || 3000;
 const app = express();
 
-app.use(bodyParser.json());
+// app.use(bodyParser.json());
+app.use(express.json());
 app.use(express.static(path.join(__dirname, 'build')));
 
 app.get('/', (req, res) => res.sendFile(path.join(__dirname, '../README.md')));
