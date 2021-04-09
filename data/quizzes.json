@@ -32,7 +32,7 @@
       "id": "question_2",
       "text": "What's wrong with this sentence? 'Sitting on the park bench, the sun set slowly behind the mountains.'",
       "options": ["Run-on sentence", "Dangling participle", "Comma splice"],
-      " ": "Dangling participle"
+      "answer": "Dangling participle"
     }, {
       "id": "question_3",
       "text": "Which of the following is a possessive pronoun?",
